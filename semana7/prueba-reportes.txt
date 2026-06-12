@@ -1,0 +1,10 @@
+Al consultar GET /reportes después de registrar reportes, el servidor responde con un arreglo JSON que contiene los reportes almacenados en memoria.
+
+Ejemplo de respuesta:
+[
+  {
+    "id": 1,
+    "tipo": "Infraestructura",
+    "descripcion": "Daño en alumbrado público"
+  }
+]
